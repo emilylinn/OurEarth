@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E8h-jj-1cb">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,34 +10,29 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OurEarth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1017"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OurEarth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8d6-iH-psA">
-                                <rect key="frame" x="151" y="56" width="113" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="67E-MO-nuJ">
-                                <rect key="frame" x="0.0" y="99" width="414" height="860"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="67E-MO-nuJ">
+                                <rect key="frame" x="0.0" y="99" width="414" height="994"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61C-KU-o2s">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1017"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1011"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Issue." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm1-Ff-FZV">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="The Issue." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm1-Ff-FZV">
                                                 <rect key="frame" x="156" y="8" width="103" height="28"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zXF-gP-nY4">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zXF-gP-nY4">
                                                 <rect key="frame" x="8" y="37" width="398" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Up until recently, China has been the place for the United States to send their recyclables - nearly 4,000 shipping containers full everyday.  In 2017, China made the decision to stop accepting foreign waste, and now the U.S. has nowhere to put it. Facilities are being overrun, and recyclables are being sent to landfills, and oceans are being filled with trash. Learn more about how you can help.
 </string>
@@ -127,35 +122,40 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How You Can Help:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fl-aA-U3z">
-                                                <rect key="frame" x="21" y="518" width="179" height="24"/>
+                                                <rect key="frame" x="21" y="512" width="179" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e7F-zB-mfQ">
-                                                <rect key="frame" x="15" y="537" width="391" height="286"/>
+                                                <rect key="frame" x="15" y="537" width="391" height="363"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <mutableString key="text">Here are some quick and easy tips you can incorporate into your daily life to fix this worldwide issue. 
 
-- DO NOT recycle items that are contaminated, meaning they have leftover grease, or bits of food left inside the container. This can ruin the whole process of recycling and the whole load must be thrown in a landfill with no purpose.
-- Find ways to REUSE your items! Instead of recycling or throwing out your glass containers, reuse them for a different purpose. 
--When going out, bring reusable items along with you such as coffee cups and straws
+- DO NOT recycle items that are contaminated, meaning they have leftover grease, or bits of food left inside the container. This can ruin the whole process of recycling and the whole load must be thrown in a landfill with no purpose.                           
 
-</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+- Find ways to REUSE your items! Instead of recycling or throwing out your glass containers, reuse them for a different purpose. 
+purpose.                           
+
+- Bring reusable items with you wherever you go such as coffee cups and straws.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Just because you can't see it, doesn't  mean its not happening." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fQJ-kb-jRX">
+                                                <rect key="frame" x="15" y="908" width="391" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="zXF-gP-nY4" firstAttribute="top" secondItem="Zm1-Ff-FZV" secondAttribute="bottom" constant="1" id="7hI-PA-lk2"/>
-                                            <constraint firstItem="zXF-gP-nY4" firstAttribute="leading" secondItem="61C-KU-o2s" secondAttribute="leading" constant="8" id="Dlz-J2-Nz4"/>
-                                            <constraint firstAttribute="trailing" secondItem="Zm1-Ff-FZV" secondAttribute="trailing" constant="155" id="IfZ-vt-zV6"/>
-                                            <constraint firstAttribute="height" constant="1017" id="JhM-Xy-975"/>
-                                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="leading" secondItem="61C-KU-o2s" secondAttribute="leading" constant="156" id="aB0-CQ-OEZ"/>
-                                            <constraint firstAttribute="trailing" secondItem="zXF-gP-nY4" secondAttribute="trailing" constant="8" id="iWR-Mi-duf"/>
+                                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="leading" secondItem="61C-KU-o2s" secondAttribute="leading" constant="156" id="D1L-Bb-1Ln"/>
+                                            <constraint firstAttribute="height" constant="1011" id="JhM-Xy-975"/>
+                                            <constraint firstAttribute="trailing" secondItem="Zm1-Ff-FZV" secondAttribute="trailing" constant="155" id="VF3-ge-Fbm"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -166,26 +166,143 @@
                                     <constraint firstAttribute="trailing" secondItem="61C-KU-o2s" secondAttribute="trailing" id="qke-CU-bEJ"/>
                                 </constraints>
                             </scrollView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvU-VK-jRz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spv-VV-E8F">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="OurEarth" id="j34-Lu-c8Q"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="67E-MO-nuJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1PO-fs-csh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="67E-MO-nuJ" secondAttribute="bottom" constant="24" id="5bb-Fi-bRI"/>
+                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="top" secondItem="Spv-VV-E8F" secondAttribute="bottom" constant="19" id="CET-0A-vgq"/>
+                            <constraint firstItem="Spv-VV-E8F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HlC-RY-d1a"/>
+                            <constraint firstItem="zvU-VK-jRz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="It9-ex-lCq"/>
                             <constraint firstItem="61C-KU-o2s" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Lny-2H-o8Z"/>
-                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="top" secondItem="8d6-iH-psA" secondAttribute="bottom" constant="16" id="UMq-PR-rtI"/>
+                            <constraint firstItem="Spv-VV-E8F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SrU-LP-wPt"/>
                             <constraint firstItem="67E-MO-nuJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YKN-Kb-qph"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8d6-iH-psA" secondAttribute="trailing" constant="150" id="js7-AJ-zm8"/>
-                            <constraint firstItem="8d6-iH-psA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="nmc-Yi-gny"/>
-                            <constraint firstItem="8d6-iH-psA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="wC6-PX-Hej"/>
-                            <constraint firstItem="67E-MO-nuJ" firstAttribute="top" secondItem="8d6-iH-psA" secondAttribute="bottom" constant="8" id="zLm-9k-ChX"/>
+                            <constraint firstItem="Spv-VV-E8F" firstAttribute="top" secondItem="zvU-VK-jRz" secondAttribute="bottom" id="ZAw-Mb-JNj"/>
+                            <constraint firstItem="zvU-VK-jRz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n7K-Bn-XEw"/>
+                            <constraint firstAttribute="trailing" secondItem="zvU-VK-jRz" secondAttribute="trailing" id="uea-W9-jUa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <size key="freeformSize" width="414" height="1017"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="0FU-F8-e5T"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+            <point key="canvasLocation" x="-242" y="678"/>
+        </scene>
+        <!--Tracker-->
+        <scene sceneID="Gtj-jh-aUN">
+            <objects>
+                <viewController id="c9Y-cW-Eft" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gvn-9l-Uou">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="age-Iz-4f0"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tracker" id="Eti-kg-dmH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sg-VR-seD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="602.89855072463774" y="-499.55357142857139"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xYp-Fq-DSw">
+            <objects>
+                <tabBarController id="E8h-jj-1cb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mEL-lR-AXy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1qa-fU-3nY"/>
+                        <segue destination="c9Y-cW-Eft" kind="relationship" relationship="viewControllers" id="lHe-gM-xyd"/>
+                        <segue destination="TUN-g3-BJp" kind="relationship" relationship="viewControllers" id="lrf-aw-JNe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Yx-7L-rh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="-175"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="Ttz-6G-asD">
+            <objects>
+                <viewController id="TUN-g3-BJp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sGe-Ko-Dbl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-sQ-ST7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lm-8i-pKS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="UeJ-lA-1PA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6lm-8i-pKS" secondAttribute="bottom" id="0HC-A9-iEC"/>
+                                    <constraint firstItem="6lm-8i-pKS" firstAttribute="leading" secondItem="eWx-sQ-ST7" secondAttribute="leading" id="RlK-LI-TBk"/>
+                                    <constraint firstItem="6lm-8i-pKS" firstAttribute="top" secondItem="eWx-sQ-ST7" secondAttribute="top" id="fb6-oO-tV4"/>
+                                    <constraint firstAttribute="trailing" secondItem="6lm-8i-pKS" secondAttribute="trailing" id="jbo-aR-VaM"/>
+                                </constraints>
+                            </scrollView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-BT-xHm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="OurEarth" id="PUm-w2-AzX"/>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yGS-fv-NGu">
+                                <rect key="frame" x="3" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6lm-8i-pKS" firstAttribute="width" secondItem="sGe-Ko-Dbl" secondAttribute="width" id="00k-Xn-dYw"/>
+                            <constraint firstItem="eWx-sQ-ST7" firstAttribute="trailing" secondItem="DeP-aj-aMq" secondAttribute="trailing" id="A9k-ad-87W"/>
+                            <constraint firstItem="eWx-sQ-ST7" firstAttribute="leading" secondItem="DeP-aj-aMq" secondAttribute="leading" id="CsG-9P-7B6"/>
+                            <constraint firstItem="eWx-sQ-ST7" firstAttribute="bottom" secondItem="DeP-aj-aMq" secondAttribute="bottom" id="v2f-Ha-05P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DeP-aj-aMq"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" id="zne-yQ-Emh"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="at6-dw-tIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594.20289855072474" y="220.98214285714286"/>
+        </scene>
+        <!--Tracker-->
+        <scene sceneID="ToO-WN-c7q">
+            <objects>
+                <viewController id="p2v-xw-QEG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kDr-Kx-uWI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="crw-Bh-4yx"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tracker" id="IL1-lg-VrJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5W-ho-WQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="602.89855072463774" y="-499.55357142857139"/>
         </scene>
     </scenes>
     <resources>
