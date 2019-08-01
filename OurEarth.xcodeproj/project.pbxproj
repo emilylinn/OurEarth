@@ -10,6 +10,7 @@
 		18512A0722F32823001D05A4 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0622F32823001D05A4 /* Gobold Regular.otf */; };
 		18512A0922F328A7001D05A4 /* libel-suit-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0822F328A7001D05A4 /* libel-suit-rg.ttf */; };
 		18512A0B22F328C5001D05A4 /* Paloseco-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0A22F328C5001D05A4 /* Paloseco-Light.ttf */; };
+		18512A0D22F33F26001D05A4 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0C22F33F26001D05A4 /* BebasNeue-Regular.ttf */; };
 		18C1CF4422F2047B00046B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1CF4322F2047B00046B0B /* AppDelegate.swift */; };
 		18C1CF4622F2047B00046B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1CF4522F2047B00046B0B /* ViewController.swift */; };
 		18C1CF4922F2047B00046B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1CF4722F2047B00046B0B /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		18512A0622F32823001D05A4 /* Gobold Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gobold Regular.otf"; sourceTree = "<group>"; };
 		18512A0822F328A7001D05A4 /* libel-suit-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libel-suit-rg.ttf"; sourceTree = "<group>"; };
 		18512A0A22F328C5001D05A4 /* Paloseco-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-Light.ttf"; sourceTree = "<group>"; };
+		18512A0C22F33F26001D05A4 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		18C1CF4022F2047B00046B0B /* OurEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C1CF4322F2047B00046B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C1CF4522F2047B00046B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		18512A0522F32795001D05A4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				18512A0C22F33F26001D05A4 /* BebasNeue-Regular.ttf */,
 				18512A0822F328A7001D05A4 /* libel-suit-rg.ttf */,
 				18512A0A22F328C5001D05A4 /* Paloseco-Light.ttf */,
 				18512A0622F32823001D05A4 /* Gobold Regular.otf */,
@@ -251,6 +254,7 @@
 			files = (
 				18512A0922F328A7001D05A4 /* libel-suit-rg.ttf in Resources */,
 				18C1CF5122F2047D00046B0B /* LaunchScreen.storyboard in Resources */,
+				18512A0D22F33F26001D05A4 /* BebasNeue-Regular.ttf in Resources */,
 				18C1CF4E22F2047D00046B0B /* Assets.xcassets in Resources */,
 				18512A0B22F328C5001D05A4 /* Paloseco-Light.ttf in Resources */,
 				18512A0722F32823001D05A4 /* Gobold Regular.otf in Resources */,
