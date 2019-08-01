@@ -151,14 +151,14 @@
                                                 <rect key="frame" x="15" y="543" width="391" height="363"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">Here are some quick and easy tips you can incorporate into your daily life to fix this worldwide issue. 
+                                                <string key="text">Here are some quick and easy tips you can incorporate into your daily life to fix this worldwide issue. 
 
 - DO NOT recycle items that are contaminated, meaning they have leftover grease, or bits of food left inside the container. This can ruin the whole process of recycling and the whole load must be thrown in a landfill with no purpose.                           
 
 - Find ways to REUSE your items! Instead of recycling or throwing out your glass containers, reuse them for a different purpose. 
 purpose.                           
 
-- Bring reusable items with you wherever you go such as coffee cups and straws.</mutableString>
+- Bring reusable items with you wherever you go such as coffee cups and straws.</string>
                                                 <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -310,7 +310,7 @@ purpose.
         <!--Item-->
         <scene sceneID="Gvm-JR-Obx">
             <objects>
-                <viewController id="lEf-ao-YSe" sceneMemberID="viewController">
+                <viewController id="lEf-ao-YSe" customClass="trackerViewController" customModule="OurEarth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1V-oA-bH3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -423,6 +423,22 @@ purpose.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCv-yK-FR8">
+                                                <rect key="frame" x="68" y="374" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Submit"/>
+                                                <connections>
+                                                    <action selector="trashButton:" destination="lEf-ao-YSe" eventType="touchUpInside" id="fBm-BF-MyC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf5-ra-NW4">
+                                                <rect key="frame" x="303" y="374" width="49" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Submit"/>
+                                                <connections>
+                                                    <action selector="compostButton:" destination="lEf-ao-YSe" eventType="touchUpInside" id="kUf-cd-qKA"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -454,6 +470,12 @@ purpose.
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="ltD-8t-Io7"/>
                     <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="compostNumber" destination="Yfw-wz-aZE" id="JYR-lZ-y9N"/>
+                        <outlet property="compostText" destination="tGe-2e-abi" id="XmX-2g-es4"/>
+                        <outlet property="trashNumber" destination="DhZ-vu-gG6" id="OHb-VV-dTg"/>
+                        <outlet property="trashText" destination="Osh-ay-daM" id="iTg-1T-6hC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLx-fN-5p9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

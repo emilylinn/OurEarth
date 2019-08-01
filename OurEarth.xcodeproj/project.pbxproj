@@ -11,6 +11,7 @@
 		18512A0922F328A7001D05A4 /* libel-suit-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0822F328A7001D05A4 /* libel-suit-rg.ttf */; };
 		18512A0B22F328C5001D05A4 /* Paloseco-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0A22F328C5001D05A4 /* Paloseco-Light.ttf */; };
 		18512A0D22F33F26001D05A4 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18512A0C22F33F26001D05A4 /* BebasNeue-Regular.ttf */; };
+		188D22B522F3446200A2472A /* trackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D22B422F3446200A2472A /* trackerViewController.swift */; };
 		18C1CF4422F2047B00046B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1CF4322F2047B00046B0B /* AppDelegate.swift */; };
 		18C1CF4622F2047B00046B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1CF4522F2047B00046B0B /* ViewController.swift */; };
 		18C1CF4922F2047B00046B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1CF4722F2047B00046B0B /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		18512A0822F328A7001D05A4 /* libel-suit-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libel-suit-rg.ttf"; sourceTree = "<group>"; };
 		18512A0A22F328C5001D05A4 /* Paloseco-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-Light.ttf"; sourceTree = "<group>"; };
 		18512A0C22F33F26001D05A4 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		188D22B422F3446200A2472A /* trackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerViewController.swift; sourceTree = "<group>"; };
 		18C1CF4022F2047B00046B0B /* OurEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C1CF4322F2047B00046B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C1CF4522F2047B00046B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				18C1CF4F22F2047D00046B0B /* LaunchScreen.storyboard */,
 				18C1CF5222F2047D00046B0B /* Info.plist */,
 				18C1CF4A22F2047B00046B0B /* OurEarth.xcdatamodeld */,
+				188D22B422F3446200A2472A /* trackerViewController.swift */,
 			);
 			path = OurEarth;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C1CF4C22F2047B00046B0B /* OurEarth.xcdatamodeld in Sources */,
+				188D22B522F3446200A2472A /* trackerViewController.swift in Sources */,
 				18C1CF4622F2047B00046B0B /* ViewController.swift in Sources */,
 				18C1CF4422F2047B00046B0B /* AppDelegate.swift in Sources */,
 			);
