@@ -18,208 +18,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--FakeHome-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OurEarth" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="67E-MO-nuJ">
-                                <rect key="frame" x="0.0" y="99" width="414" height="994"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61C-KU-o2s">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1011"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE ISSUE." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm1-Ff-FZV">
-                                                <rect key="frame" x="156" y="8" width="103" height="35"/>
-                                                <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="29"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zXF-gP-nY4">
-                                                <rect key="frame" x="8" y="43" width="398" height="206"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">Up until recently, China has been the place for the United States to send their recyclables - nearly four thousand shipping containers full everyday.  In twenty seventeen, China made the decision to stop accepting foreign waste, and now the U.S. has nowhere to put it. Facilities are being overrun, and recyclables are being sent to landfills, and oceans are being filled with trash. Learn more about how you can help.
-</string>
-                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <imageView hidden="YES" autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Jug icon" translatesAutoresizingMaskIntoConstraints="NO" id="LwG-ym-Dwv">
-                                                <rect key="frame" x="35" y="245" width="97" height="98"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="98" id="9qj-DM-iKP"/>
-                                                    <constraint firstAttribute="width" constant="97" id="qVJ-Sa-pLy"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="recycle icon" translatesAutoresizingMaskIntoConstraints="NO" id="cOb-ol-FWE">
-                                                <rect key="frame" x="140" y="245" width="140" height="98"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="140" id="Ml7-gE-CGr"/>
-                                                    <constraint firstAttribute="height" constant="98" id="dZ8-0n-HND"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="wave icon" translatesAutoresizingMaskIntoConstraints="NO" id="e6g-Lm-0El">
-                                                <rect key="frame" x="270" y="209" width="136" height="139"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="136" id="YyE-EU-lhP"/>
-                                                    <constraint firstAttribute="height" constant="139" id="jP8-CC-J9U"/>
-                                                </constraints>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZa-YQ-v3Q">
-                                                <rect key="frame" x="36" y="262" width="96" height="86"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Billion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X51-Q2-TOr">
-                                                <rect key="frame" x="57" y="346" width="55" height="22"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdA-Vb-3sg">
-                                                <rect key="frame" x="316" y="257" width="36.333333333333314" height="86"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Million" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lh-sU-4Rq">
-                                                <rect key="frame" x="316" y="344" width="57" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="pounds of plastic will have generated by 2050" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6ml-9n-5Sk">
-                                                <rect key="frame" x="21" y="366" width="127" height="79"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="of the U.S.' trash is recycable, but only 30% is actually recycled" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BbH-1b-CJ2">
-                                                <rect key="frame" x="156" y="366" width="124" height="79"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="marine animals are killed each year due to ocean pollution" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vhi-NB-DOk">
-                                                <rect key="frame" x="282" y="366" width="128" height="79"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="The United States is the country with the highest amount of waste  accumulated. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4bJ-1I-Neo">
-                                                <rect key="frame" x="32" y="453" width="350" height="57"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Percent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxP-Zd-3L7">
-                                                <rect key="frame" x="177" y="346" width="66" height="23"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOW YOU CAN HELP:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fl-aA-U3z">
-                                                <rect key="frame" x="21" y="512" width="205" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="33"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Just because you can't see it, doesn't  mean its not happening." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fQJ-kb-jRX">
-                                                <rect key="frame" x="15" y="922" width="391" height="69"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="75" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQZ-cF-0yf">
-                                                <rect key="frame" x="170" y="261" width="89" height="86"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
-                                                <color key="textColor" red="0.089526928961277008" green="0.47909945249557495" blue="0.24297621846199036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e7F-zB-mfQ">
-                                                <rect key="frame" x="15" y="543" width="391" height="363"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">Here are some quick and easy tips you can incorporate into your daily life to fix this worldwide issue. 
-
-- DO NOT recycle items that are contaminated, meaning they have leftover grease, or bits of food left inside the container. This can ruin the whole process of recycling and the whole load must be thrown in a landfill with no purpose.                           
-
-- Find ways to REUSE your items! Instead of recycling or throwing out your glass containers, reuse them for a different purpose. 
-purpose.                           
-
-- Bring reusable items with you wherever you go such as coffee cups and straws.</string>
-                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="leading" secondItem="61C-KU-o2s" secondAttribute="leading" constant="156" id="D1L-Bb-1Ln"/>
-                                            <constraint firstAttribute="trailing" secondItem="e6g-Lm-0El" secondAttribute="trailing" constant="8" id="DtQ-U8-wxS"/>
-                                            <constraint firstAttribute="height" constant="1011" id="JhM-Xy-975"/>
-                                            <constraint firstAttribute="trailing" secondItem="Zm1-Ff-FZV" secondAttribute="trailing" constant="155" id="VF3-ge-Fbm"/>
-                                            <constraint firstItem="LwG-ym-Dwv" firstAttribute="leading" secondItem="61C-KU-o2s" secondAttribute="leading" constant="35" id="WQe-bl-kes"/>
-                                            <constraint firstItem="X51-Q2-TOr" firstAttribute="top" secondItem="LwG-ym-Dwv" secondAttribute="bottom" constant="3" id="cR1-3w-INk"/>
-                                            <constraint firstItem="NdA-Vb-3sg" firstAttribute="leading" secondItem="cOb-ol-FWE" secondAttribute="trailing" constant="36" id="oGu-lj-4VU"/>
-                                            <constraint firstItem="5lh-sU-4Rq" firstAttribute="top" secondItem="e6g-Lm-0El" secondAttribute="bottom" constant="-4" id="pnl-Jc-4AX"/>
-                                            <constraint firstItem="XxP-Zd-3L7" firstAttribute="top" secondItem="cOb-ol-FWE" secondAttribute="bottom" constant="3" id="spW-b1-bSK"/>
-                                            <constraint firstItem="e6g-Lm-0El" firstAttribute="leading" secondItem="sQZ-cF-0yf" secondAttribute="trailing" constant="11" id="tf6-0Z-o8a"/>
-                                            <constraint firstItem="cOb-ol-FWE" firstAttribute="leading" secondItem="LwG-ym-Dwv" secondAttribute="trailing" constant="8" id="yzb-r3-gmT"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="61C-KU-o2s" firstAttribute="leading" secondItem="67E-MO-nuJ" secondAttribute="leading" id="DPX-lA-xdR"/>
-                                    <constraint firstItem="61C-KU-o2s" firstAttribute="top" secondItem="67E-MO-nuJ" secondAttribute="top" id="Yn6-RJ-84z"/>
-                                    <constraint firstAttribute="bottom" secondItem="61C-KU-o2s" secondAttribute="bottom" id="jx0-dn-aBE"/>
-                                    <constraint firstAttribute="trailing" secondItem="61C-KU-o2s" secondAttribute="trailing" id="qke-CU-bEJ"/>
-                                </constraints>
-                            </scrollView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvU-VK-jRz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                            </navigationBar>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spv-VV-E8F">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <items>
-                                    <navigationItem title="OurEarth" id="j34-Lu-c8Q"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="67E-MO-nuJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1PO-fs-csh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="67E-MO-nuJ" secondAttribute="bottom" constant="24" id="5bb-Fi-bRI"/>
-                            <constraint firstItem="Zm1-Ff-FZV" firstAttribute="top" secondItem="Spv-VV-E8F" secondAttribute="bottom" constant="19" id="Fvh-KF-rGY"/>
-                            <constraint firstItem="Spv-VV-E8F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HlC-RY-d1a"/>
-                            <constraint firstItem="zvU-VK-jRz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="It9-ex-lCq"/>
-                            <constraint firstItem="61C-KU-o2s" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Lny-2H-o8Z"/>
-                            <constraint firstItem="Spv-VV-E8F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SrU-LP-wPt"/>
-                            <constraint firstItem="67E-MO-nuJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YKN-Kb-qph"/>
-                            <constraint firstItem="61C-KU-o2s" firstAttribute="top" secondItem="Spv-VV-E8F" secondAttribute="bottom" constant="11" id="Yhl-C2-FFo"/>
-                            <constraint firstItem="Spv-VV-E8F" firstAttribute="top" secondItem="zvU-VK-jRz" secondAttribute="bottom" id="ZAw-Mb-JNj"/>
-                            <constraint firstItem="zvU-VK-jRz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n7K-Bn-XEw"/>
-                            <constraint firstAttribute="trailing" secondItem="zvU-VK-jRz" secondAttribute="trailing" id="uea-W9-jUa"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="FakeHome" id="0FU-F8-e5T"/>
-                    <size key="freeformSize" width="414" height="1200"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-242.0289855072464" y="677.67857142857144"/>
-        </scene>
         <!--Home-->
         <scene sceneID="bFF-Zh-Lbw">
             <objects>
@@ -285,7 +83,7 @@ purpose.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nlC-X3-USG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1091.304347826087" y="-503.57142857142856"/>
+            <point key="canvasLocation" x="-181" y="737"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xYp-Fq-DSw">
@@ -298,7 +96,6 @@ purpose.
                     </tabBar>
                     <connections>
                         <segue destination="HUt-bz-Icp" kind="relationship" relationship="viewControllers" id="Lv5-4d-ZPz"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1qa-fU-3nY"/>
                         <segue destination="TUN-g3-BJp" kind="relationship" relationship="viewControllers" id="lrf-aw-JNe"/>
                         <segue destination="lEf-ao-YSe" kind="relationship" relationship="viewControllers" id="aXR-Rj-x0i"/>
                     </connections>
@@ -334,6 +131,13 @@ purpose.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dq7-Fq-fcN">
+                                                <rect key="frame" x="97" y="458" width="219" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="45"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trash icon" translatesAutoresizingMaskIntoConstraints="NO" id="C4Z-wb-7xP">
                                                 <rect key="frame" x="42" y="228" width="102" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -342,8 +146,16 @@ purpose.
                                                 <rect key="frame" x="151" y="228" width="111" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recycle bin icon" translatesAutoresizingMaskIntoConstraints="NO" id="Lmf-cd-cDy">
+                                                <rect key="frame" x="160" y="667" width="111" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost icon" translatesAutoresizingMaskIntoConstraints="NO" id="JWy-tO-QeB">
                                                 <rect key="frame" x="283" y="228" width="83" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost icon" translatesAutoresizingMaskIntoConstraints="NO" id="itp-al-e64">
+                                                <rect key="frame" x="290" y="667" width="83" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Osh-ay-daM">
@@ -374,6 +186,13 @@ purpose.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go1-2p-Gbv">
+                                                <rect key="frame" x="187" y="637" width="58" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogW-Nr-OJg">
                                                 <rect key="frame" x="303" y="199" width="42" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -381,8 +200,22 @@ purpose.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vW2-JP-M0d">
+                                                <rect key="frame" x="303" y="638" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhZ-vu-gG6">
                                                 <rect key="frame" x="84" y="151" width="18" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQA-pc-Dx9">
+                                                <rect key="frame" x="92" y="578" width="18" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <nil key="textColor"/>
@@ -406,6 +239,27 @@ purpose.
                                                 <rect key="frame" x="30" y="112" width="127" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THROWS AWAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jph-9G-rvP">
+                                                <rect key="frame" x="45" y="529" width="107" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RECYCLES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3a-qj-KqF">
+                                                <rect key="frame" x="180" y="529" width="72" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMPOSTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpJ-dM-D54">
+                                                <rect key="frame" x="292" y="529" width="79" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="LibelSuitRg-Regular" family="Libel Suit" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -439,6 +293,24 @@ purpose.
                                                     <action selector="compostButton:" destination="lEf-ao-YSe" eventType="touchUpInside" id="kUf-cd-qKA"/>
                                                 </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trash icon" translatesAutoresizingMaskIntoConstraints="NO" id="t5k-Hy-Jlv">
+                                                <rect key="frame" x="50" y="667" width="102" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pieces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zk-ki-AuZ">
+                                                <rect key="frame" x="76" y="638" width="51" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.51" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqG-DX-A3W">
+                                                <rect key="frame" x="174" y="575" width="88" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="45"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -489,11 +361,113 @@ purpose.
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-sQ-ST7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-sQ-ST7">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lm-8i-pKS">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help Out!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH5-0s-vzK">
+                                                <rect key="frame" x="145" y="17" width="124" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="44"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keep America Beautiful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dQ-wC-Zsy">
+                                                <rect key="frame" x="8" y="120" width="247" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DOj-I4-Nrs">
+                                                <rect key="frame" x="22" y="60" width="384" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Here are some organizations with opportunities to volunteer and donate to their cause!
+
+</string>
+                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KFZ-Lh-ehn">
+                                                <rect key="frame" x="8" y="149" width="399" height="167"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">With more than six hundred thousand community-based affiliates and partner organizations, and a variety of national programs, Keep America Beautiful engages more than five million volunteers to end littering, improve recycling, and beautify America’s communities. 
+</string>
+                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N6o-yy-THA">
+                                                <rect key="frame" x="8" y="396" width="399" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Ocean Conservancy is a non-profit organization environmental advocacy group that is striving to create science-based solutions that conserve the ocean and its life.  </string>
+                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ipR-bP-og7">
+                                                <rect key="frame" x="7" y="586" width="399" height="77"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Bye Bye Plastic Bags is a worldwide movement created by two teens in Bali making efforts in trying to ban plastic bags.
+</string>
+                                                <fontDescription key="fontDescription" name="Paloseco-Light" family="Paloseco" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ocean Conservancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9U-C9-Zq8">
+                                                <rect key="frame" x="8" y="367" width="213" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bye Bye Plastic Bags" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-h3-cAo">
+                                                <rect key="frame" x="8" y="548" width="213" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0t0-S3-hQ0">
+                                                <rect key="frame" x="89" y="307" width="50" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Donate"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0j-a6-A9s">
+                                                <rect key="frame" x="257" y="307" width="66" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Volunteer"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0E-wO-MNl">
+                                                <rect key="frame" x="257" y="499" width="66" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Volunteer"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1P-D3-lNN">
+                                                <rect key="frame" x="89" y="499" width="50" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Donate"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0i-b8-BGc">
+                                                <rect key="frame" x="89" y="671" width="50" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Donate"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvh-sU-ey2">
+                                                <rect key="frame" x="257" y="670" width="66" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.70257482390000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Volunteer"/>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="UeJ-lA-1PA"/>
@@ -507,9 +481,8 @@ purpose.
                                     <constraint firstAttribute="trailing" secondItem="6lm-8i-pKS" secondAttribute="trailing" id="jbo-aR-VaM"/>
                                 </constraints>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-BT-xHm">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-BT-xHm">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="OurEarth" id="PUm-w2-AzX"/>
                                 </items>
@@ -518,8 +491,12 @@ purpose.
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6lm-8i-pKS" firstAttribute="width" secondItem="sGe-Ko-Dbl" secondAttribute="width" id="00k-Xn-dYw"/>
+                            <constraint firstItem="ZkK-BT-xHm" firstAttribute="trailing" secondItem="DeP-aj-aMq" secondAttribute="trailing" id="3uu-gT-fQ6"/>
                             <constraint firstItem="eWx-sQ-ST7" firstAttribute="trailing" secondItem="DeP-aj-aMq" secondAttribute="trailing" id="A9k-ad-87W"/>
                             <constraint firstItem="eWx-sQ-ST7" firstAttribute="leading" secondItem="DeP-aj-aMq" secondAttribute="leading" id="CsG-9P-7B6"/>
+                            <constraint firstItem="ZkK-BT-xHm" firstAttribute="top" secondItem="DeP-aj-aMq" secondAttribute="top" id="Mak-v5-qDz"/>
+                            <constraint firstItem="eWx-sQ-ST7" firstAttribute="top" secondItem="ZkK-BT-xHm" secondAttribute="bottom" id="Yu6-3k-xcK"/>
+                            <constraint firstItem="ZkK-BT-xHm" firstAttribute="leading" secondItem="DeP-aj-aMq" secondAttribute="leading" id="gkR-B5-ZDT"/>
                             <constraint firstItem="eWx-sQ-ST7" firstAttribute="bottom" secondItem="DeP-aj-aMq" secondAttribute="bottom" id="v2f-Ha-05P"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DeP-aj-aMq"/>
@@ -534,11 +511,8 @@ purpose.
     </scenes>
     <resources>
         <image name="Compost icon" width="256" height="256"/>
-        <image name="Jug icon" width="512" height="512"/>
         <image name="Screen Shot 2019-08-01 at 10.17.34 AM" width="550" height="1366"/>
         <image name="Trash icon" width="256" height="256"/>
         <image name="recycle bin icon" width="512" height="512"/>
-        <image name="recycle icon" width="200" height="200"/>
-        <image name="wave icon" width="512" height="512"/>
     </resources>
 </document>
