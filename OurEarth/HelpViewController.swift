@@ -11,8 +11,24 @@ import UIKit
 
 class HelpViewController: UIViewController {
     
+    @IBOutlet weak var kabDonateBut: UIButton!
+    @IBOutlet weak var kabVolunteerBut: UIButton!
+    
+    @IBOutlet weak var OCDonateBut: UIButton!
+    @IBOutlet weak var OCVolunteerBut: UIButton!
+    
+    
+    @IBOutlet weak var byeDonateBut: UIButton!
+    
+    @IBOutlet weak var byeVolunteerBut: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+    self.kabDonateBut.layer.cornerRadius = 5
+    self.kabVolunteerBut.layer.cornerRadius = 5
+    self.OCDonateBut.layer.cornerRadius = 5
+    self.OCVolunteerBut.layer.cornerRadius = 5
+    self.byeDonateBut.layer.cornerRadius = 5
+    self.byeVolunteerBut.layer.cornerRadius = 5
     }
     
     @IBAction func kabDonateButton(_ sender: Any) {

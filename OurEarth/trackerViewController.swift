@@ -41,8 +41,8 @@ class trackerViewController: UIViewController {
             
             if let coreDataNum = try? context.fetch(TrashLabel.fetchRequest()) as? [TrashLabel] {
                 trashArray = coreDataNum
-                trashNumber.text = String(trashArray[0].trashCount)
-                print(trashArray[0].trashCount)
+//                trashNumber.text = String(trashArray[0].trashCount)
+//                print(trashArray[0].trashCount)
                 
             }
         }
@@ -98,7 +98,7 @@ class trackerViewController: UIViewController {
             (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
             print(numToSave.trashCount)
         }
-        print(trashArray[0])
+//        print(trashArray[0])
         //        getNum()
         
     }
